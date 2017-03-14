@@ -1,12 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2001-2014 Yann-Ga�l Gu�h�neuc and others.
+ * Copyright (c) 2001-2014 Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the GNU Public License v2.0
  * which accompanies this distribution, and is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * 
  * Contributors:
- *     Yann-Ga�l Gu�h�neuc and others, see in file; API and its implementation
+ *     Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc and others, see in file; API and its implementation
  ******************************************************************************/
 package padl.util;
 
@@ -369,7 +369,7 @@ public class Util {
 				// Yann 2001/06/27: I check the number of arguments
 				// depending on which type of method I am looking at
 				// to handle correctly the add and remove methods
-				// of the Fa�ade pattern.
+				// of the FaÃƒÂ§ade pattern.
 				if (currentName.startsWith("add") && argTypes.length > 0) {
 					adds.put(new String(currentName.substring(3) + ":"
 							+ argTypes[0]), currentMethod);

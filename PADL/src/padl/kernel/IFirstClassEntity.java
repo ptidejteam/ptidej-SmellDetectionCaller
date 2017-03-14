@@ -1,15 +1,15 @@
 /*******************************************************************************
- * Copyright (c) 2001-2014 Yann-Ga�l Gu�h�neuc and others.
+ * Copyright (c) 2001-2014 Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the GNU Public License v2.0
  * which accompanies this distribution, and is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * 
  * Contributors:
- *     Yann-Ga�l Gu�h�neuc and others, see in file; API and its implementation
+ *     Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc and others, see in file; API and its implementation
  ******************************************************************************/
 /*
- * (c) Copyright 2001-2003 Yann-Ga�l Gu�h�neuc, �cole des Mines de Nantes and
+ * (c) Copyright 2001-2003 Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc, Ãƒâ€°cole des Mines de Nantes and
  * Object Technology International, Inc.
  * 
  * Use and copying of this software and preparation of derivative works based
@@ -32,7 +32,7 @@ package padl.kernel;
 import java.util.Iterator;
 
 /**
- * @author Yann-Ga�l Gu�h�neuc
+ * @author Yann-GaÃƒÂ«l GuÃƒÂ©hÃƒÂ©neuc
  */
 public interface IFirstClassEntity extends IEntity, IContainer {
 	void addConstituent(final IConstituentOfEntity anElement);
