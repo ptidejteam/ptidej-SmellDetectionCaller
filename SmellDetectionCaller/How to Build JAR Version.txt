@@ -1,0 +1,10 @@
+1. Execute once "/SmellDetectionCaller/src/ptidej/sad/smelldetectioncaller/SmellDetectionCaller.java" 
+	as launch configuration "SmellDetectionCaller"
+
+2. Select "/SmellDetectionCaller/src/ptidej/sad/smelldetectioncaller/SmellDetectionCaller.java"
+	2.1. Export as "Java/Runnable JAR file"
+		2.1.1. Select as launch configuration "SmellDetectionCaller"
+		2.1.2. Slection as export destination "0 - SmellDetectionCaller\Ptidej.jar"
+		2.1.3. Select "Copy required libraries into a sub-folder next to the generated JAR"
+		2.1.4. Check "Save as ANT script"
+		2.1.5. Select as ANT script location "\0 - SmellDetectionCaller\Generate JARs.xml"

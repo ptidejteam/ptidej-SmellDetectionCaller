@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Ptidej&apos;&#x0D;&#x0A;- Original project: &apos;Ptidej&apos;&#x0D;&#x0A;- Original element: &apos;ptidej.solver.OccurrenceGenerator.java&apos;" description="Delete element" element1="/src&lt;ptidej.solver{OccurrenceGenerator.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1489508219673" subPackages="false" version="1.0"/>
+</session>
