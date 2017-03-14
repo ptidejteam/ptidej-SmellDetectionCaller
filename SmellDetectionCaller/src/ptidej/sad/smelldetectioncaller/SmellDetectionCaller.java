@@ -10,18 +10,9 @@
  ******************************************************************************/
 package ptidej.sad.smelldetectioncaller;
 
-import java.io.File;
-import java.util.Arrays;
-
 public class SmellDetectionCaller {
 	public static void main(final String[] args) {
-		final String path = "../0 - SmellDetectionCaller/";
-		final String[] folders = new File(path).list();
-		Arrays.sort(folders);
-		for (int i = 0; i < folders.length; i++) {
-			final String name = folders[i];
-			final String directory = path + name + "/bin/";
-			SmellDetectionHelper.analyseCodeLevelModelFromJavaClassFiles(directory, name, "rsc/");
-		}
+		SmellDetectionHelper.analyseCodeLevelModelFromJavaClassFiles("../0 - SmellDetectionCaller/bin/",
+				"SmellDetectionCaller Itself", "rsc/");
 	}
 }

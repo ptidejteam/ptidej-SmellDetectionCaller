@@ -200,3 +200,14 @@ org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-03-14 12:23:28.545
 !MESSAGE Provided SVN information does not match that on disk for project '1 - Generate JARs'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-03-14 13:53:33.196
+!MESSAGE Could not auto-share project Temp
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'Temp'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-03-14 13:53:33.196
+!MESSAGE Provided SVN information does not match that on disk for project 'Temp'.
